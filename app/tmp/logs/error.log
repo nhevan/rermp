@@ -14638,3 +14638,112 @@ Request URL: /apple-touch-icon.png
 Stack Trace:
 #0 /var/zpanel/hostdata/lged-rermp2/public_html/lged-rermp2-crewinfo_gov_bd/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-03-11 11:04:54 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /rermp/theme/Syntech/js/libs/jquery.min.map
+Stack Trace:
+#0 /Users/nhevan/Documents/Sites-Local/rermp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 11:06:27 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'172.18.18.18\' (4)',
+  'enabled' => true,
+)
+Request URL: /rermp/users/login
+Stack Trace:
+#0 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
+#3 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3310): Model->setSource('users')
+#5 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#6 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/nhevan/Documents/Sites-Local/rermp/app/View/Users/login.ctp(8): FormHelper->create('User', Array)
+#9 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(931): include('/Users/nhevan/D...')
+#10 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(893): View->_evaluate('/Users/nhevan/D...', Array)
+#11 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(462): View->_render('/Users/nhevan/D...')
+#12 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#14 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/nhevan/Documents/Sites-Local/rermp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-03-11 11:06:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'172.18.18.18\' (4)',
+  'enabled' => true,
+)
+Request URL: /rermp/users/login
+Stack Trace:
+#0 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
+#3 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3310): Model->setSource('users')
+#5 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#6 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/nhevan/Documents/Sites-Local/rermp/app/View/Users/login.ctp(8): FormHelper->create('User', Array)
+#9 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(931): include('/Users/nhevan/D...')
+#10 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(893): View->_evaluate('/Users/nhevan/D...', Array)
+#11 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(462): View->_render('/Users/nhevan/D...')
+#12 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#14 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/nhevan/Documents/Sites-Local/rermp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-03-11 11:09:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'lged-rermp2\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /rermp/users/login
+Stack Trace:
+#0 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
+#3 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3310): Model->setSource('users')
+#5 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#6 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/nhevan/Documents/Sites-Local/rermp/app/View/Users/login.ctp(8): FormHelper->create('User', Array)
+#9 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(931): include('/Users/nhevan/D...')
+#10 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(893): View->_evaluate('/Users/nhevan/D...', Array)
+#11 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(462): View->_render('/Users/nhevan/D...')
+#12 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#14 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/nhevan/Documents/Sites-Local/rermp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-03-11 11:11:53 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'lged-rermp2\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /rermp/users/login
+Stack Trace:
+#0 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
+#3 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(3310): Model->setSource('users')
+#5 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#6 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/nhevan/Documents/Sites-Local/rermp/app/View/Users/login.ctp(8): FormHelper->create('User', Array)
+#9 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(931): include('/Users/nhevan/D...')
+#10 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(893): View->_evaluate('/Users/nhevan/D...', Array)
+#11 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/View/View.php(462): View->_render('/Users/nhevan/D...')
+#12 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#14 /Users/nhevan/Documents/Sites-Local/rermp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/nhevan/Documents/Sites-Local/rermp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
